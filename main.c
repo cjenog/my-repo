@@ -1,12 +1,9 @@
 #include <stdio.h>
-void	ft_putnbr(int nb);
 
+int	ft_atoi_base(char *str, char *base);
 
-int	main(void)
+int main(void)
 {
-	int i;
-	scanf("%d", &i);
-//	printf ("현재 i의 값은 %d입니다\n",i);
-	ft_putnbr(i);
-	return 0;
+	printf("%d\n", ft_atoi_base(" ---+-+opyevni??", "poneyvif"));
+	return (0);
 }
